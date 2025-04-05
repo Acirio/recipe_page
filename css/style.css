@@ -1,4 +1,4 @@
-body{
+html, body{
     margin: 0;
     padding: 0;
     font-family: Lato, Arial, Helvetica, sans-serif;
@@ -30,11 +30,15 @@ p{
     height: 400px;
     background-image: url(../images/hero_bolo.jpg);
     background-size: cover;
+    background-position: center; 
 }
 
 .container{
     width: 1000px;
     margin: auto;
+    padding: 0px 40px;
+    /*Esse padding faz com que em telas menores o contéudo da página não fique colodo com o canto da aba,
+    deixando mais agradável*/
 }
 
 .content{
@@ -80,4 +84,16 @@ p{
 
 .footer>a:hover{
     text-decoration: underline;
+}
+
+.ingredients{
+    cursor: url(../images/cursor_ingredientes.png), auto;
+}
+
+.preparation{
+    cursor: url(../images/cursor_preparo.png), auto;
+}
+
+.instructions{
+    cursor: url(../images/cursor_intrucoes.png), auto;
 }
