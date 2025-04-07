@@ -34,7 +34,11 @@ p{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    /*Configurar o site dessa forma faz com que ele se adapter melhor em
+    dispositivos com diferentes telas*/
     margin: auto;
     padding: 0px 40px;
     /*Esse padding faz com que em telas menores o contéudo da página não fique colodo com o canto da aba,
